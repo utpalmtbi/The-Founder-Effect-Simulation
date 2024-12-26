@@ -17,3 +17,6 @@ To install `ggplot2`, use:
 ```R
 install.packages("ggplot2")
 
+# Part of this blog post
+https://sites.google.com/view/ublab-org/blog/the-founder-effect-simulation?authuser=0
+
