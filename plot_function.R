@@ -1,0 +1,10 @@
+# Function to plot the founder effect over generations
+plotFounderEffect <- function(data) {
+  ggplot(data, aes(x = Generation)) +
+    geom_line(aes(y = A1, color = "A1")) +
+    geom_point(aes(y = A1, color = "A1")) +
+    geom_line(aes(y = A2, color = "A2")) +
+    geom_point(aes(y = A2, color = "A2")) +
+    labs(y = "Frequency", color = "Allele") +
+    theme_minimal()
+}
