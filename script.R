@@ -1,7 +1,7 @@
 # Load the necessary library
 library(ggplot2)
 
-# Source the script
+# Functions
 source("path/to/The-Founder-Effect-Simulation/simulateFounderEffect")
 source("path/to/The-Founder-Effect-Simulation/plotFounderEffect")
 
