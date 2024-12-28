@@ -1,10 +1,8 @@
-# Load the necessary library
 library(ggplot2)
 
 # Functions
 source("path/to/The-Founder-Effect-Simulation/simulateFounderEffect")
 source("path/to/The-Founder-Effect-Simulation/plotFounderEffect")
-
 
 # Run the simulation
 results <- simulateFounderEffect(
