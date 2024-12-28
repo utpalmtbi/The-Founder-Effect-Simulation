@@ -2,8 +2,8 @@
 library(ggplot2)
 
 # Source the script
-source("path/to/The-Founder-Effect-Simulation/simulation_function.R")
-source("path/to/The-Founder-Effect-Simulation/plot_function.R")
+source("path/to/The-Founder-Effect-Simulation/simulateFounderEffect")
+source("path/to/The-Founder-Effect-Simulation/plotFounderEffect")
 
 
 # Run the simulation
