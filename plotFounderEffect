@@ -1,4 +1,3 @@
-# Function to plot the founder effect over generations
 plotFounderEffect <- function(data) {
   ggplot(data, aes(x = Generation)) +
     geom_line(aes(y = A1, color = "A1")) +
