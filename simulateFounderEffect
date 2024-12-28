@@ -1,4 +1,3 @@
-# Function to simulate the founder effect over multiple generations
 simulateFounderEffect <- function(original_pop_size, freq_A1, founder_pop_size, generations) {
   # Generate original population
   original_pop <- sample(c("A1", "A2"), original_pop_size, replace = TRUE, prob = c(freq_A1, 1 - freq_A1))
